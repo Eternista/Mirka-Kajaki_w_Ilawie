@@ -1,7 +1,11 @@
+import { Banner } from "./Components/Banner";
+import { InfoSection } from "./Components/InfoSection";
+
 const App = () => {
   return (
     <>
-      ELO
+      <Banner />
+      <InfoSection />
     </>
   )
 }
