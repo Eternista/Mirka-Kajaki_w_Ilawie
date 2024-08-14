@@ -1,5 +1,5 @@
 import { Banner } from './Components/Banner';
-import { InfoSection } from './Components/InfoSection';
+import InfoSection from './Components/InfoSection';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.scss';
 
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Banner />
       <InfoSection />
-      <footer className="container text-center">Copyright {year}</footer>
+      <footer className="text-center">© {year}</footer>
     </>
   );
 };
