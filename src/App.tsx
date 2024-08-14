@@ -1,7 +1,7 @@
-import { Banner } from "./Components/Banner";
-import { InfoSection } from "./Components/InfoSection";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.scss"
+import { Banner } from './Components/Banner';
+import { InfoSection } from './Components/InfoSection';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.scss';
 
 const App = () => {
   const year = new Date().getFullYear();
@@ -9,11 +9,9 @@ const App = () => {
     <>
       <Banner />
       <InfoSection />
-      <footer className="container text-center">
-        Copyright {year}
-      </footer>
+      <footer className="container text-center">Copyright {year}</footer>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
