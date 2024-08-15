@@ -1,9 +1,18 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import mark from "../assets/marker.png";
+
+const myIcon = new L.Icon({
+  iconUrl: mark,
+  iconRetinaUrl: mark,
+  popupAnchor:  [-0, -0],
+  iconSize: [25,41],     
+});
 
 function Map() {
 
-    const position = [53.599211, 19.567815]
+    const position = [53.5993, 19.567815]
     const googleMapLink = "https://www.google.pl/maps/place/Kazimierza+Jagiellończyka+22,+14-200+Iława/@53.5994459,19.5655481,17z/data=!3m1!4b1!4m6!3m5!1s0x471d419d01f40ff5:0x3c12fd3c32089def!8m2!3d53.5994427!4d19.5681284!16s%2Fg%2F11gy7y0gqx?entry=ttu"
   
 
@@ -12,7 +21,7 @@ function Map() {
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={position}>
+        <Marker position={position} icon={myIcon} >
           <Popup>
             <a href={googleMapLink}>
               Kazimierza Jagiellończyka 22,
