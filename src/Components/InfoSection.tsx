@@ -14,7 +14,7 @@ const InfoSection = () => {
             <div className='context'>
               <h1>Mirka - Kajaki w Iławie</h1>
               <p>
-                Zapraszam do pływania razem ze mnà, wynajmu kajaków SUP-ów,do rozmów o regionie, do przygód! Udzielam też porad odnośnie techniki pływania,zachowania  na wodzie. Asekuruję i pływam razem jeśli potrzeba!
+                Zapraszam do pływania razem ze mną, wynajmu kajaków, SUP-ów, do rozmów o regionie oraz do wspólnych przygód! Udzielam też porad odnośnie techniki pływania oraz zachowania się na wodzie. Asekuruję i pływam razem jeśli potrzeba!
               </p>
               <p>Telefon: <a href='tel:+48660796846'>+48 660 796 846</a></p>
               <p>Email: <a href='mailto:miroslawasekowska@vp.pl'>miroslawasekowska@vp.pl</a></p>
