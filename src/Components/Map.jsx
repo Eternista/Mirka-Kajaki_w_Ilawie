@@ -23,7 +23,7 @@ function Map() {
         />
         <Marker position={position} icon={myIcon} >
           <Popup>
-            <a href={googleMapLink}>
+            <a target="_blank" href={googleMapLink}>
               Kazimierza Jagiellończyka 22,
               <br />
               14-200 Iława.
