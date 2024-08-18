@@ -13,7 +13,7 @@ const myIcon = new L.Icon({
 function Map() {
 
     const position = [53.5993, 19.567815]
-    const googleMapLink = "https://www.google.pl/maps/place/Kazimierza+Jagiellończyka+22,+14-200+Iława/@53.5994459,19.5655481,17z/data=!3m1!4b1!4m6!3m5!1s0x471d419d01f40ff5:0x3c12fd3c32089def!8m2!3d53.5994427!4d19.5681284!16s%2Fg%2F11gy7y0gqx?entry=ttu"
+    const googleMapLink = "https://g.co/kgs/h4cJxsJ";
   
 
     return (
